@@ -186,6 +186,7 @@ There are two ways to implement the solution either fullstack or split the front
 
 The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework like Flutter.
 
+Alumni need to reach as many people as posable not just where the biggest audiences is. It also needs to be usable not just working. One way to achieve this is to have a web application with applications for all the platforms although this would probability have very good results it would be alot of work to do and maintain. We could do web application with progressive web application (PWA) for installation or use a cross platform framework to handle the installation.
 The frontend needs to be cross platform doing web and mobile operating systems. 
 bespoke, mobile first web app or web app with mobile apps
 framework, with cross platforms react, react native and flutter
@@ -195,7 +196,7 @@ this is most notable in the frontend where it is visual.
 
 Bespoke has the potential for the best out come but you need a high skill level, personal developing for each platform, know exactly what is needed or have a lot of time to prototype. High skill and long time can make it expensive, this might be best when the projects know what works and what it exactly needs.
 
-
+Because it is green field and it will evolve as the project grows it is a lot better to have something that has prioritises prototyping and then deployment on to many platforms.
 
 
 ### Backend
