@@ -180,13 +180,23 @@ Staking
 
 ## Solutions
 
-There are two ways to implement the solution either fullstack or split the front and backends up. We can make bespoke fullstack, this is just writing front and backends yourself. We can use a framework to do the fullstack, like laravel or wordpress. We can also do the front and backend
+Alumni need to reach as many people as posable not just where the biggest audiences is on the same hand it needs to be usable not just working. Splitting the project in front, back and data. This should help the project be more maintainable and help it succeed in the long run at no extra effort except some planning. All three parts can be done with bespoke, a framework or with something off the shelf. Practically at our scale the front can be done bespoke or with a framework the back can be done with a framework or off the shelf and the data is really only off the shelf.
+
+local install
+ui components
+feed or feeds history
+posts history
+chat history
+shared data about groups and people. members and Friends or general?
+documents
 
 ### Frontend
 
 The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework like Flutter.
 
-Alumni need to reach as many people as posable not just where the biggest audiences is. It also needs to be usable not just working. One way to achieve this is to have a web application with applications for all the platforms although this would probability have very good results it would be alot of work to do and maintain. We could do web application with progressive web application (PWA) for installation or use a cross platform framework to handle the installation.
+Alumni need to reach as many people as posable not just where the biggest audiences is. It also needs to be usable not just working. One way to achieve this is to have a web application and applications for all the platforms. Just have a web application with progressive web applications (PWA) for install. Have the frontend done with a framework that has cross platform support.
+
+although this would probability have good results it would be alot of work to do and maintain. We could do web application with progressive web application (PWA) for installation or use a cross platform framework to handle the installation.
 The frontend needs to be cross platform doing web and mobile operating systems. 
 bespoke, mobile first web app or web app with mobile apps
 framework, with cross platforms react, react native and flutter
