@@ -182,6 +182,8 @@ Staking
 
 Alumni need to reach as many people as posable not just where the biggest audiences is on the same hand it needs to be usable not just working. Splitting the project in front, back and data. This should help the project be more maintainable and help it succeed in the long run at no extra effort except some planning. All three parts can be done with bespoke, a framework or with something off the shelf. Practically at our scale the front can be done bespoke or with a framework the back can be done with a framework or off the shelf and the data is really only off the shelf.
 
+If we are having a client installed locally and not just web what can be do to make the user experience better? Not having to download user interface components, having post and feed history so there is something to look at if slow to load or offline, It could also have chat history, friends contact and details of groups that you are a member.
+
 local install
 ui components
 feed or feeds history
@@ -191,6 +193,21 @@ shared data about groups and people. members and Friends or general?
 documents
 
 ### Frontend
+
+what is needed from the frontend
+ To fit on desktop and mobile be performant
+how can we do what is needed
+ mobile first web site or a progressive web application.
+ a native client for each mobile platform.
+ a framework that dose cross platform.
+contrast
+ Having a mobile first web site or progressive web application will be the simplest way to have a frontend, no matter what we end with it will useful for testing the Backend.
+ It is quick and easy to make anything with html and css but to make something good is time consuming.
+ If their device runs a browser will have access to Alumni. Problems can come with how different browsers implement internet specifications.
+
+ A native client for each platform can give the best results but will require 
+
+pick
 
 The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework like Flutter.
 
