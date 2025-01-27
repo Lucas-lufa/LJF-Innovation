@@ -196,20 +196,28 @@ documents
 
 what is needed from the frontend
  To fit on desktop and mobile be performant
+ the ui will change as we better understand what is needed for the ux
 how can we do what is needed
- mobile first web site or a progressive web application.
- a native client for each mobile platform.
+A website, native client and framework cross platform.
+
+ A web site that is mobile first or a progressive web application.
+Having a mobile first web site or progressive web application will be the simplest way to have a frontend, no matter what we end with it will useful for testing the Backend.
+It is quick and easy to make anything with html and css but to make something good is time consuming. If their device runs a browser will have access to Alumni. Problems can come with how different browsers implement internet specifications.
+changing the ui will only be done once for each redesign.
+
+ a native client for each platform.
+can give the best results.
+will require expertise in for each platform.
+maintaining the different platforms and keeping them similar will take alot of work.
+
  a framework that dose cross platform.
+frameworks have a style when it comes to ui completely different applications made with the same framework look similar.
+changing the ui will only be done once for each redesign.
+
 contrast
- Having a mobile first web site or progressive web application will be the simplest way to have a frontend, no matter what we end with it will useful for testing the Backend.
- It is quick and easy to make anything with html and css but to make something good is time consuming.
- If their device runs a browser will have access to Alumni. Problems can come with how different browsers implement internet specifications.
-
- A native client for each platform can give the best results but will require 
-
 pick
 
-The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework like Flutter.
+The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework.
 
 Alumni need to reach as many people as posable not just where the biggest audiences is. It also needs to be usable not just working. One way to achieve this is to have a web application and applications for all the platforms. Just have a web application with progressive web applications (PWA) for install. Have the frontend done with a framework that has cross platform support.
 
