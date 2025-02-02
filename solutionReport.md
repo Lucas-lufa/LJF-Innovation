@@ -217,21 +217,16 @@ changing the ui will only be done once for each redesign.
 contrast
 pick
 
-The frontend needs to be cross platform. Cross platform for computers should just a user interface running in a browser. Mobile can be a user interface running in a browser as well but optimised for mobile either totally bespoke or using a framework specifically React and React Native. Another option for mobile is a cross platforms framework.
+The things we need from the frontend are to be cross platform, we want to reach as many people as posable. Easily prototyped, what we ultimately want is a great user experience the user interface (UI) will change as we learn more about how Alumni is used. There are three ways I see of achieving these requirements, One have a web interface with mobile first or a progressive web application, two have a native client for each platform, three use a framework that dose cross platform.
 
-Alumni need to reach as many people as posable not just where the biggest audiences is. It also needs to be usable not just working. One way to achieve this is to have a web application and applications for all the platforms. Just have a web application with progressive web applications (PWA) for install. Have the frontend done with a framework that has cross platform support.
+A website is easiest to get up and running, to get something really good can be time consuming. If changes need to be made to the UI only the cascading style sheets for each screen size is the only unique code the rest is shared so will be easy to maintain and update. For testing of the application programmable interface (API) a simple website will be needed, at least in the early stages before the UI is builded. If installation is require for a feature progressive web application (PWA) is a potential fix for this.
 
-although this would probability have good results it would be alot of work to do and maintain. We could do web application with progressive web application (PWA) for installation or use a cross platform framework to handle the installation.
-The frontend needs to be cross platform doing web and mobile operating systems. 
-bespoke, mobile first web app or web app with mobile apps
-framework, with cross platforms react, react native and flutter
+native
+has the potential of the best experience for each platform.
+building each will take specific skill, either alot of people, at leas one per platform or time one person learning each.
+hard to keep any ui changes synced between platforms after prototyped.
 
-Frameworks take some over head to learn but that is usually off set by the time taken to implement features that a framework provides. All the frameworks are opinionated and have a particular style, 
-this is most notable in the frontend where it is visual.
-
-Bespoke has the potential for the best out come but you need a high skill level, personal developing for each platform, know exactly what is needed or have a lot of time to prototype. High skill and long time can make it expensive, this might be best when the projects know what works and what it exactly needs.
-
-Because it is green field and it will evolve as the project grows it is a lot better to have something that has prioritises prototyping and then deployment on to many platforms.
+cross platform
 
 
 ### Backend
