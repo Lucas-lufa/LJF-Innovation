@@ -221,10 +221,7 @@ The things we need from the frontend are to be cross platform, we want to reach 
 
 A website is easiest to get up and running, to get something really good can be time consuming. If changes need to be made to the UI only the cascading style sheets for each screen size is the only unique code the rest is shared so will be easy to maintain and update. For testing of the application programmable interface (API) a simple website will be needed, at least in the early stages before the UI is builded. If installation is require for a feature progressive web application (PWA) is a potential fix for this.
 
-native
-has the potential of the best experience for each platform.
-building each will take specific skill, either alot of people, at leas one per platform or time one person learning each.
-hard to keep any ui changes synced between platforms after prototyped.
+Building a native application for each platform has the potential of the best experience because it can be tailored to each platform and can take advantage of what they offer. Building each will take specific skill either alot of people, one per platform, or alot of time so a person can learn multiple. It will be hard to keep any UI changes synced between platforms after prototyped even with the appropriate people power and skill.
 
 cross platform
 
