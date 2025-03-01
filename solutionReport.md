@@ -223,7 +223,10 @@ A website is easiest to get up and running, to get something really good can be 
 
 Building a native application for each platform has the potential of the best experience because it can be tailored to each platform and can take advantage of what they offer. Building each will take specific skill either alot of people, one per platform, or alot of time so a person can learn multiple. It will be hard to keep any UI changes synced between platforms after prototyped even with the appropriate people power and skill.
 
-cross platform
+Using a framework that is cross platform with writing once will help considerably. Having the framework do the work of making applications native will mean that development and maintenance isn't effected by the amount of platforms supported. Also as we better understand how people use it we can improve the user experience (UX) by changing the UI and these changes will flow on to all versions. One of the down sides of
+frameworks have a style and often things made with the same framework look similar but this might not matter.
+
+From the three outlines I think going with a framework is the most balanced. A website frontend would be the easiest but might not be the most polished on mobile platforms. Having a native client on every platform would give the best results but would take alot of skill and work to build and maintain. Going with a framework will get the benefits of making native application without all the labor overhead and make a more polished user experience than a website alone.
 
 
 ### Backend
